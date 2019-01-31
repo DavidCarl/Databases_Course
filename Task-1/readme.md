@@ -9,7 +9,7 @@
 
 I would do it this way to run it on you local computer.
 
-```wget zip_file ```
+```wget https://github.com/DavidCarl/Databases_Course/raw/master/Task-1/Task-1.zip```
 
 use your favorite linux zip tool! I use the following
 
@@ -33,5 +33,7 @@ You can see below how to use my program.
 
 ### Help Commands
  ```python main.py --help```
+
  ```python main.py save --help```
+ 
  ```python main.py read --help```
