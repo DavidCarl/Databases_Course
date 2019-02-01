@@ -48,7 +48,15 @@ See usage for how to use it!
 
 #### Manual commands
 
-First you got to ```touch docker.db``` and after that you can run the following command ```docker run -v $PWD/docker.db/:/home/simple.db davidcarl/database_task_1:latest python ./main.py``` this way you are gonna write the application specific rommands right after ./main.py
+First you got to 
+
+```touch docker.db``` 
+
+and after that you can run the following command 
+
+```docker run -v $PWD/docker.db/:/home/simple.db davidcarl/database_task_1:latest python ./main.py``` 
+
+this way you are gonna write the application specific rommands right after ./main.py
 
 Unless you know what you are doing with Docker I just recommend the script I made.
 
