@@ -64,7 +64,13 @@ See usage for how to use it!
 
 ## Usage
 
-You can see below how to use my program. The commands I specified are if you are downloading the zip and running it directly on your machine. If you choose to use my Docker image through the script I made for you need to replace all of the ```python main.py``` with ```./docker_script.sh```
+You can see below how to use my program. The commands I specified are if you are downloading the zip and running it directly on your machine. If you choose to use my Docker image through the script I made for you need to replace all of the 
+
+```python main.py``` 
+
+with the following
+
+```./docker_script.sh```
 
 ### Save to DB file
 
