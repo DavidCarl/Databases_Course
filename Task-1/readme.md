@@ -19,10 +19,16 @@ use your favorite linux zip tool! I use the following
 
 ```unzip Task-1.zip```
 
+If you are running it this way it will create a file called simple.db as the database file!
+
 See usage for how to use it!
 
 
 ### Docker
+
+You can either download my script or run commands yourself!
+
+#### Script
 
 First download this script, I attached a command on 1 way to do it.
 
@@ -40,17 +46,28 @@ This creates a file in your current directory called docker.db. It also runs my 
 
 See usage for how to use it!
 
+#### Manual commands
+
+First you got to ```touch docker.db``` and after that you can run the following command ```docker run -v $PWD/docker.db/:/home/simple.db davidcarl/database_task_1:latest python ./main.py``` this way you are gonna write the application specific rommands right after ./main.py
+
+Unless you know what you are doing with Docker I just recommend the script I made.
+
+See usage for how to use it!
+
 ## Usage
 
-You can see below how to use my program.
+You can see below how to use my program. The commands I specified are if you are downloading the zip and running it directly on your machine. If you choose to use my Docker image through the script I made for you need to replace all of the ```python main.py``` with ```./docker_script.sh```
 
 ### Save to DB file
+
 ```python main.py save -k <key_value> -v <value_here>```
 
 ### Read from DB file
+
 ```python main.py read -k <key_value>```
 
 ### Help Commands
+
  ```python main.py --help```
 
  ```python main.py save --help```
